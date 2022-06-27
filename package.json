@@ -35,7 +35,7 @@
     "build": "unbuild",
     "dev": "unbuild --stub",
     "format": "prettier --write src/**/*.ts",
-    "release": "bumpp --commit --push --tag && pnpm release",
+    "release": "bumpp --commit --push --tag && pnpm publish",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "preversion": "pnpm build"
